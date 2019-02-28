@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineConstructionEquipmentRental.API", "OnlineConstructionEquipmentRental.API\OnlineConstructionEquipmentRental.API.csproj", "{9020294F-E8AC-43CA-9186-288B97DF21A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineConstructionEquipmentRental.Core", "OnlineConstructionEquipmentRental.Core\OnlineConstructionEquipmentRental.Core.csproj", "{E8B6427B-B21C-4B79-81E8-9C5012D9DFCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineConstructionEquipmentRental.Persistence", "OnlineConstructionEquipmentRental.Persistance\OnlineConstructionEquipmentRental.Persistence.csproj", "{A2ED2E1E-FBAA-4011-AC26-87517A9B6C5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineConstructionEquipmentRental.FrontEnd", "OnlineConstructionEquipmentRental.FrontEnd\OnlineConstructionEquipmentRental.FrontEnd.csproj", "{A542DBA7-8CFF-4C13-8D8D-7DA2694360AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineConstructionEquipmentRental.API.Tests", "OnlineConstructionEquipmentRental.API.Tests\OnlineConstructionEquipmentRental.API.Tests.csproj", "{21088487-A725-425E-BE2D-94155297F274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9020294F-E8AC-43CA-9186-288B97DF21A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9020294F-E8AC-43CA-9186-288B97DF21A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9020294F-E8AC-43CA-9186-288B97DF21A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9020294F-E8AC-43CA-9186-288B97DF21A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B6427B-B21C-4B79-81E8-9C5012D9DFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B6427B-B21C-4B79-81E8-9C5012D9DFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B6427B-B21C-4B79-81E8-9C5012D9DFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B6427B-B21C-4B79-81E8-9C5012D9DFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2ED2E1E-FBAA-4011-AC26-87517A9B6C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ED2E1E-FBAA-4011-AC26-87517A9B6C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ED2E1E-FBAA-4011-AC26-87517A9B6C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ED2E1E-FBAA-4011-AC26-87517A9B6C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A542DBA7-8CFF-4C13-8D8D-7DA2694360AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A542DBA7-8CFF-4C13-8D8D-7DA2694360AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A542DBA7-8CFF-4C13-8D8D-7DA2694360AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A542DBA7-8CFF-4C13-8D8D-7DA2694360AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21088487-A725-425E-BE2D-94155297F274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21088487-A725-425E-BE2D-94155297F274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21088487-A725-425E-BE2D-94155297F274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21088487-A725-425E-BE2D-94155297F274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD22A581-F733-421D-A4FA-D2D7214B5AB9}
+	EndGlobalSection
+EndGlobal

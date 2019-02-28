@@ -1,0 +1,41 @@
+﻿@page
+@model OnlineConstructionEquipmentRental.FrontEnd.Pages.CartModel
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<div class="cart text-center">
+    <h1 class="display-4">Cart</h1>
+    <div class="row">
+        <div class="col-3 name">
+            <span>Equipment</span>
+        </div>
+        <div class="col-2 type">
+            <span>Type</span>
+        </div>
+        <div class="col-2 points">
+            <span>Loyalty Points</span>
+        </div>
+        <div class="col-2 period">
+            <span>Rental Period, days</span>
+        </div>
+        <div class="col-2 price">
+            <span>Price</span>
+        </div>
+        <div class="col-1 add-button">
+
+        </div>
+    </div>
+    <div class="content">
+
+    </div>
+    <div class="cart-buttons text-right">
+        <input type="button" class="btn" value="Update" onclick="updateCart();" />
+        <input type="button" class="btn" value="Checkout" onclick="checkout();" />
+    </div>
+</div>
+
+
+@section Scripts{
+    <script type="text/javascript" src="js/cart.js"></script>
+}
